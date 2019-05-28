@@ -1,0 +1,27 @@
+.calc_body {
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+  background-color: aquamarine;
+  padding: 30px;
+  text-align: center;
+}
+
+.calc_body .plus {
+  width: 30px;
+  height: 30px;
+  background-color: #f0ac47;
+}
+
+.calc_body .minus {
+  width: 30px;
+  height: 30px;
+  background-color: #f3cb8e;
+}
+
+.calc_body .equal {
+  width: 30px;
+  height: 30px;
+  background-color: chocolate;
+}
+/*# sourceMappingURL=style.css.map */

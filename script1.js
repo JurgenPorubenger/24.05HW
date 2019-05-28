@@ -9,6 +9,7 @@ function plus() {
    let result = a1+b1;
 
    document.getElementById("result").innerHTML=result;
+   
 }
 function minus() {
 

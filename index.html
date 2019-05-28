@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p><input type="text" id="first_number" value="Add number"></p>
-<p><input type="text" id="second_number" value="Add number"></p>
-<button onclick="plus()">+</button>
-<button onclick="minus()">-</button>
-<hr>
-<p id="result">Result: </p>
+    <div class="calc_body">
+        <p><input type="text" id="first_number"></p>
+        <p><input type="text" id="second_number"></p>
+        <button class= "plus" onclick="plus()">+</button>
+        <button class = "minus" onclick="minus()">-</button>
+        <!-- <button class = "equal" onclick="equal()">=</button> -->
+        <hr>
+        <p >Result:<span id="result"></span></p>
+    </div>
 
 <script src="script1.js"></script>
 </body>
